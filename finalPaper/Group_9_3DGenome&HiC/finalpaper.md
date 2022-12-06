@@ -31,6 +31,7 @@ To better understand the difference between these methods, I'd like to distingus
 
 #### 1) Large Conformations - Chromosomal Territories<a name="2321"></a>
 Each chromosome occupies specific regions of the nucleus, forming individual territories and rarely intermix. As a result, the interaction between loci on the same chromosome is more frequent. The chromosomal territory helps regulate gene expression by redistributing genes and co-localizing genes with their transcription machinery.
+
 ![](LargeConformation.png)
 
 #### 2) Large Conformations - A/B Compartments<a name="2322"></a>
@@ -39,14 +40,17 @@ The whole genome can be separated into two self-interacting spatial compartments
 #### 3) Small Conformations - Chromatin Loops<a name="2323"></a>
 Genome forms a loop structure to bring together two far away elements to a spatial proximity in order to facilitate regulatory effect.
 A loop is a site where a protein specifically binds to two different sequences in the genome. As a result, we can see strong associations/interactions between these sites. 
+
 ![](Loop.png)
 
 #### 4) Small Conformations - Topologically Associating Domains<a name="2324"></a>
 TADs are self-interacting genomic regions. DNA sequences interact with each other more frequently within TADs. Many studies indicate that TADs restrict interactions of regulatory sequences to their target genes. Moreover, TAD boundaries are associated with high CTCF binding and more frequent appearance of certain genes such as the housekeeping genes. However, the function of TADs is still not fully understood and we need more research. According to the computer simulation, we find that chromatin loop extrusion can help generate TADs through cohesin motors.
+
 ![](TAD.png)
 
 #### 5) Small Conformations - Lamin Associated Domains<a name="2325"></a>
 Genomic regions that are adjacent to the nuclear lamina, in which DNA heavily interacts with NL and form a condensed chromatin layer. LADs are associated with gene repression because the post-translational histone modification, H3K27me3, is enriched in LADs chromatin. 
+
 ![](LAD.png)
 
 #### 6) Small Conformations - Nucleolar Associated Domains<a name="2326"></a>
