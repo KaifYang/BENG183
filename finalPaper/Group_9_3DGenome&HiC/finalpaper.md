@@ -19,7 +19,7 @@
 From a 3D perspective, the genome has different genomic conformation, showing different interaction patterns that can be revealed by Hi-C results. 
 The Larger scale conformations are structures like: chromosome territories and A/B compartments. 
 The smaller scale conformations are structures like: loop, TADs, LADs, etc.
-![](Structure.png)
+![](Structure.png) [1]
 
 
 ## 2. 3D Chromosome Structure <a name="232"></a>
@@ -154,7 +154,8 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 
 
 # Referrence
-[1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.<br>
+[1] “Nuclear Organization.” Wikipedia, Wikimedia Foundation, 20 June 2022, https://en.wikipedia.org/wiki/Nuclear_organization. 
+<br>
 
 [2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.<br>
 
