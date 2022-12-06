@@ -5,7 +5,9 @@
     2.1. [Chromosomal Territories](#2321)<br>
     2.2. [A/B Compartment](#2322)<br>
     2.3. [Chromatin Loops](#2323)<br>
-    2.4. [TADs](#2324)
+    2.4. [TADs](#2324)<br>
+    2.5. [LADs](#2325)<br>
+    2.6. [NADs](#2326)
 3. [Hi-C Analysis](#233)
 4. [Real-life Example](#234)
 
@@ -39,6 +41,13 @@ A loop is a site where a protein specifically binds to two different sequences i
 
 #### 4) Small Conformations - Topologically Associating Domains<a name="2324"></a>
 TADs are self-interacting genomic regions. DNA sequences interact with each other more frequently within TADs. Many studies indicate that TADs restrict interactions of regulatory sequences to their target genes. Moreover, TAD boundaries are associated with high CTCF binding and more frequent appearance of certain genes such as the housekeeping genes. However, the function of TADs is still not fully understood and we need more research. According to the computer simulation, we find that chromatin loop extrusion can help generate TADs through cohesin motors.
+
+#### 5) Small Conformations - Lamin Associated Domains<a name="2325"></a>
+Genomic regions that are adjacent to the nuclear lamina, in which DNA heavily interacts with NL and form a condensed chromatin layer. LADs are associated with gene repression because the post-translational histone modification, H3K27me3, is enriched in LADs chromatin. 
+
+
+#### 6) Small Conformations - Nucleolar Associated Domains<a name="2326"></a>
+NADs are regions in which DNA sequences interact with nucleolus. This structure, frequently including large multi-gene clusters, usually express characteristics of constitutive heterochromatin and are correlated with low gene expression. The part of the chromosome that contains ribosomal RNA genes is usually inside the NADs. NADs can be further differentiated into two types. Type I NADs are usually associated with both nucleolar periphery and nuclear lamina. This type of NADs are usually constitutive heterochromatin, leading to late DNA replication and little gene expression. Type II NADs are usually associated with nucleoli. This type of NADs, in contrast, leads to earlier DNA replication and greater gene expression. (Saksouk et al.)
 
 ## 2.3.3 Hi-C<a name="233"></a>
 Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
