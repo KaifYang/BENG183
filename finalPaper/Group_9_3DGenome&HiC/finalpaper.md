@@ -56,6 +56,21 @@ Genomic regions that are adjacent to the nuclear lamina, in which DNA heavily in
 #### 6) Small Conformations - Nucleolar Associated Domains<a name="2326"></a>
 NADs are regions in which DNA sequences interact with nucleolus. This structure, frequently including large multi-gene clusters, usually express characteristics of constitutive heterochromatin and are correlated with low gene expression. The part of the chromosome that contains ribosomal RNA genes is usually inside the NADs. NADs can be further differentiated into two types. Type I NADs are usually associated with both nucleolar periphery and nuclear lamina. This type of NADs are usually constitutive heterochromatin, leading to late DNA replication and little gene expression. Type II NADs are usually associated with nucleoli. This type of NADs, in contrast, leads to earlier DNA replication and greater gene expression. (Saksouk et al.)
 
+
+## Hi-C:
+
+#### PipeLine:
+
+![](WorkFlow.png)
+
+#### Introduction to HiC data mapping format:
+
+![](Structure_VS_HiC.png)
+
+The graphs here show the general shape of mapping of the data from a larger scale to the smaller scale. As we can see in the graph: the x and y axis represent the sequence of the part of the genome we are looking at, and they are identical. The intensity of the shadow represents the contact frequency of two positions on the sequence. That’s why we have a completely dark line that goes from top left to bottom right. The line is at the position where the sequence of x and y is at the same position. The gray square on the graph represents a self-interacting genomic sequence. As explained above, chromosome territories, A/B compartments and TADs all have this property. Moreover, for the loops, we can see that it is at the corner of some TADs, and it is very dark.  We also observe that the corner of the TAD represents the contact frequency of its head and tail, so we understand that the loop is formed by the head and tail of this TAD interacting with each other. The part of chromatin bends to make this interaction happen while also bringing other parts to each other. That’s why these TADs are also called loop domains.
+
+
+
 ## 3. Hi-C Analysis<a name="233"></a>
 Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
 
@@ -72,6 +87,8 @@ The principle of Hi-C can be illustrated as:
 - Fragment size: small fragments sequence better
 - Adapter ligation: paired-end and indexing
 - PCR: create enough material for flow cell
+
+
 
 ##### Hi-C derived techniques 
 - Hi-C original: [Lieberman-Aiden et al., Science 2010](doi: 10.1126/science.1181369)
