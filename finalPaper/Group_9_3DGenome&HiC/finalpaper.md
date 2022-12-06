@@ -1,12 +1,11 @@
 
 # 2.3 C-Techs (chromosome conformation capture)-coupled 
 1. [Introduction](#231)
-2. [Overivew of 3C methods](#232)<br>
-    2.1. [Specificity](#2321)<br>
-    2.2. [Through-put and resolution](#2322)
-3. [Hi-C](#233)
-4. [ChIA-PET](#234)
-5. [Selected methods comparison](#235)
+2. [3D Chromosome Structure](#232)<br>
+    2.1. [Large conformation](#2321)<br>
+    2.2. [Small conformation](#2322)
+3. [Hi-C Analysis](#233)
+4. [Real-life Example](#234)
 
 
 
