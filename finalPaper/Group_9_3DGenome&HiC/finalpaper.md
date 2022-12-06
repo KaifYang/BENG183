@@ -1,5 +1,5 @@
 
-# 2.3 C-Techs (chromosome conformation capture)-coupled 
+# 3D Genome Structure And Hi-C Analysis
 1. [Introduction](#231)
 2. [3D Chromosome Structure](#232)<br>
     2.1. [Large conformation](#2321)<br>
@@ -10,9 +10,13 @@
 
 
 
-## 2.3.1 Introduction<a name="231"></a>
+## 1. Introduction<a name="231"></a> 
 
-The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
+From a 3D perspective, the genome has different genomic conformation, showing different interaction patterns that can be revealed by Hi-C results. 
+The Larger scale conformations are structures like: chromosome territories and A/B compartments. 
+The smaller scale conformations are structures like: loop, TADs, LADs, etc.
+
+
 
 To capture the interaction (crosslink between strings), there are few steps in general:
 - Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
