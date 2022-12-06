@@ -19,13 +19,13 @@
 From a 3D perspective, the genome has different genomic conformation, showing different interaction patterns that can be revealed by Hi-C results. 
 The Larger scale conformations are structures like: chromosome territories and A/B compartments. 
 The smaller scale conformations are structures like: loop, TADs, LADs, etc.
-![](Structure.png) [“Nuclear Organization.” Wikipedia](https://en.wikipedia.org/wiki/Nuclear_organization)
+![](Structure.png) [[1]](https://en.wikipedia.org/wiki/Nuclear_organization)
 
 
 ## 2. 3D Chromosome Structure <a name="232"></a>
 
 ![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
-[Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
+ Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. [[2]](https://doi.org/10.1016/j.tplants.2018.03.014)
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
@@ -171,10 +171,10 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 
 
 # Referrence
-#### [1] “Nuclear Organization.” Wikipedia, Wikimedia Foundation, 20 June 2022, https://en.wikipedia.org/wiki/Nuclear_organization. 
+[1] “Nuclear Organization.” Wikipedia, Wikimedia Foundation, 20 June 2022, https://en.wikipedia.org/wiki/Nuclear_organization. 
 <br>
 
-[2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.<br>
+[2] Sotelo-Silveira, Mariana, et al. “Entering the next Dimension: Plant Genomes in 3D.” Trends in Plant Science, vol. 23, no. 7, 2018, pp. 598–612.,https://doi.org/10.1016/j.tplants.2018.03.014.<br>
 
 [3] Dekker J, Rippe K, Dekker M, Kleckner N. Capturing chromosome conformation. Science 2002;295(5558):1306–11.<br>
 
