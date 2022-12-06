@@ -3,8 +3,8 @@
 1. [Introduction](#231)
 2. [3D Chromosome Structure](#232)<br>
     2.1. [Chromosomal Territories](#2321)<br>
-    2.2. [A/B Compartment](#2322)
-    2.3. [Chromatin Loops](#2323)
+    2.2. [A/B Compartment](#2322)<br>
+    2.3. [Chromatin Loops](#2323)<br>
     2.4. [TADs](#2324)
 3. [Hi-C Analysis](#233)
 4. [Real-life Example](#234)
