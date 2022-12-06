@@ -19,7 +19,7 @@
 From a 3D perspective, the genome has different genomic conformation, showing different interaction patterns that can be revealed by Hi-C results. 
 The Larger scale conformations are structures like: chromosome territories and A/B compartments. 
 The smaller scale conformations are structures like: loop, TADs, LADs, etc.
-
+![](/assets/Structure.png)
 
 
 ## 2. 3D Chromosome Structure <a name="232"></a>
