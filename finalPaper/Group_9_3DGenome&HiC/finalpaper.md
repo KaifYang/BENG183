@@ -2,8 +2,10 @@
 # 3D Genome Structure And Hi-C Analysis
 1. [Introduction](#231)
 2. [3D Chromosome Structure](#232)<br>
-    2.1. [Large conformation](#2321)<br>
-    2.2. [Small conformation](#2322)
+    2.1. [Chromosomal Territories](#2321)<br>
+    2.2. [A/B Compartment](#2322)
+    2.3. [Chromatin Loops](#2323)
+    2.4. [TADs](#2324)
 3. [Hi-C Analysis](#233)
 4. [Real-life Example](#234)
 
@@ -18,28 +20,25 @@ The smaller scale conformations are structures like: loop, TADs, LADs, etc.
 
 
 
-To capture the interaction (crosslink between strings), there are few steps in general:
-- Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
-- Zoom in on crosslinked part and exclude untangled parts - **Digested** with a restriction enzyme
-- Analyze the components come from the same chromatin - **Reverse crosslink** and **sequence**
-- Finish the jigsaw puzzle and get the results - **Align** the reads and **summarize** the contacts
-
-> Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
-
-## 2.3.2 Overivew of 3C methods<a name="232"></a>
+## 2. 3D Chromosome Structure <a name="232"></a>
 
 ![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
 [Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
-#### 1) Specificity - What does _one, all, many_ mean<a name="2321"></a>
-‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
+#### 1) Large Conformations - Chromosomal Territories<a name="2321"></a>
+Each chromosome occupies specific regions of the nucleus, forming individual territories and rarely intermix. As a result, the interaction between loci on the same chromosome is more frequent. The chromosomal territory helps regulate gene expression by redistributing genes and co-localizing genes with their transcription machinery.
 
-These kind of specificity is determined by the primer when people use **specific primers** before PCR. 
+#### 2) Large Conformations - A/B Compartments<a name="2322"></a>
+The whole genome can be separated into two self-interacting spatial compartments: A and B. Usually, the A compartments tend to be gene-rich and contain histone markers for active transcription. In other words, A compartments are open and expression-active chromatins. B compartments, on the other hand, tend to be gene-poor and contain histone markers for gene silencing. In general, B compartments are closed and expression-inactive chromatins. Usually, we expect interactions between loci to occur within the same compartment. Regions in compartment A tend to interact with regions in compartment A, and regions in compartment B tend to interact with regions in compartment B. 
 
-#### 2) Through-put and resolution<a name="2322"></a>
-Hi-C techniques has the highest through-put (billion reads per sample) but suffering of a relative low resolution of 0.1-1Mb. However, the other methods usually have a higher resolution  around 1kb. For more details one can refer to table2 in [2].
+#### 3) Small Conformations - Chromatin Loops<a name="2323"></a>
+Genome forms a loop structure to bring together two far away elements to a spatial proximity in order to facilitate regulatory effect.
+A loop is a site where a protein specifically binds to two different sequences in the genome. As a result, we can see strong associations/interactions between these sites. 
+
+#### 4) Small Conformations - Topologically Associating Domains<a name="2324"></a>
+TADs are self-interacting genomic regions. DNA sequences interact with each other more frequently within TADs. Many studies indicate that TADs restrict interactions of regulatory sequences to their target genes. Moreover, TAD boundaries are associated with high CTCF binding and more frequent appearance of certain genes such as the housekeeping genes. However, the function of TADs is still not fully understood and we need more research. According to the computer simulation, we find that chromatin loop extrusion can help generate TADs through cohesin motors.
 
 ## 2.3.3 Hi-C<a name="233"></a>
 Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
