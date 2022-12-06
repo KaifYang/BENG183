@@ -98,9 +98,11 @@ The principle of Hi-C can be illustrated as:
 - Arima 1-day Hi-C: [Ghurye et al., BioRxiv 2018](https://www.biorxiv.org/content/early/2018/02/07/261149)
 
 ## 4. Real-life Example<a name="234"></a> 
-This paper looks at 3D epigenome reprogramming during pancreatic cancer metastasis.
+This [paper](https://doi.org/10.1186/s13045-021-01131-0) looks at 3D epigenome reprogramming during pancreatic cancer metastasis.
 They compared 3D epigenome structure between non-metastatic (primary cancer cells) and metastatic pancreatic cancer cells.
 With Hi-C, they are able to identify, for example, changes in A/B compartment, contact domains, and chromatin loops in the metastatic samples. Specifically, this figure shows the emergence of enhancer-promoter loops that are specific to metastatic cells.
+
+![image](Application.png)
  
 The figures above are Hi-C contact heat maps from primary cancer cells (left) and metastatic cancer cells (right). Compared to the primary sample, the metastatic sample has additional red points labeled by black arrows. As introduced above, these are DNA loops. For example, there are enhancers looped to the KLF5 promoter region in metastatic cancer cells, which cannot be found in primary cancer cells on the left. According to Ren et al., these metastasis-specific loops can mediate additional enhancer-promoter loops to upregulate genes associated with pancreatic cancer metastasis. (Ren et al.) 
 
