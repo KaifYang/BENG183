@@ -24,11 +24,6 @@ The smaller scale conformations are structures like: loop, TADs, LADs, etc.<br>
 
 ## 2. 3D Chromosome Structure <a name="232"></a>
 
-![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
- Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. [[2]](https://doi.org/10.1016/j.tplants.2018.03.014)
-
-To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
-
 #### 1) Large Conformations - Chromosomal Territories<a name="2321"></a>
 Each chromosome occupies specific regions of the nucleus, forming individual territories and rarely intermix. As a result, the interaction between loci on the same chromosome is more frequent. The chromosomal territory helps regulate gene expression by redistributing genes and co-localizing genes with their transcription machinery.
 
