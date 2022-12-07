@@ -93,3 +93,5 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 [5] UNC_Health_Care. “Whole Genome Sequencing Reveals Genetic Structural Secrets of Schizophrenia.” EurekAlert!, https://www.eurekalert.org/news-releases/662819. 
 
 [6] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
+
+[7] van Steensel, Bas, and Andrew S Belmont. “Lamina-Associated Domains: Links with Chromosome Architecture, Heterochromatin, and Gene Repression.” Cell, U.S. National Library of Medicine, 18 May 2017, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5532494/. 
