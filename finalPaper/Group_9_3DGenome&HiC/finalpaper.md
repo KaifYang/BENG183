@@ -80,6 +80,8 @@ The graphs here show the general shape of mapping of the data from a larger scal
 
 ### Analyzation tool: Juicer
 
+Tools like Juicer can be used to visualize Hi-C data and annotate chromosome structures. 
+
 ![](Juicer.png)
 
 A) Sequenced read pairs (horizontal bars) are aligned to the genome in parallel. Color indicates genomic position. Read pairs aligning to more than two positions are excluded. Those remaining are sorted by position and merged into a single list, at which point duplicate reads are removed. The hic file stores contact matrices at many resolutions and can be loaded into Juicebox for visualization. 
