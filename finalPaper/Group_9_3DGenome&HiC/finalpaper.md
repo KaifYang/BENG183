@@ -130,11 +130,11 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 
 [7] Saksouk, N., Simboeck, E. & Déjardin, J. Constitutive heterochromatin formation and transcription in mammals. Epigenetics & Chromatin 8, 3 (2015). https://doi.org/10.1186/1756-8935-8-3
 
-[81] 
+[8] Computational tools for Hi-C data analysis https://journal.hep.com.cn/qb/EN/10.1007/s40484-017-0113-6
 
-[8] Multiscale Chromatin Folding. A) Schema of the Features of Chromatin... https://www.researchgate.net/figure/Multiscale-chromatin-folding-a-Schema-of-the-features-of-chromatin-folding-at-different_fig1_338025861. 
+[9] Multiscale Chromatin Folding. A) Schema of the Features of Chromatin... https://www.researchgate.net/figure/Multiscale-chromatin-folding-a-Schema-of-the-features-of-chromatin-folding-at-different_fig1_338025861. 
 
 
-[9] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
+[10] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
 
-[10] A 3D Map of the Human Genome at Kilobase Resolution Reveals Principles of Chromatin Looping https://doi.org/10.1016/j.cell.2014.11.021
+[11] A 3D Map of the Human Genome at Kilobase Resolution Reveals Principles of Chromatin Looping https://doi.org/10.1016/j.cell.2014.11.021
