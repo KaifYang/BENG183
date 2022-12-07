@@ -59,12 +59,18 @@ NADs are regions in which DNA sequences interact with nucleolus. This structure,
 
 ## 3. Hi-C Analysis<a name="233"></a>
 
-#### PipeLine:
+
+
+### PipeLine:
 
 ![](WorkFlow.png)
 [[81]]
 
-#### Introduction to HiC data mapping format:
+
+
+
+
+### Introduction to HiC data mapping format:
 
 ![](Structure_VS_HiC.png)
 
@@ -72,18 +78,18 @@ NADs are regions in which DNA sequences interact with nucleolus. This structure,
 
 The graphs here show the general shape of mapping of the data from a larger scale to the smaller scale. As we can see in the graph: the x and y axis represent the sequence of the part of the genome we are looking at, and they are identical. The intensity of the shadow represents the contact frequency of two positions on the sequence. That’s why we have a completely dark line that goes from top left to bottom right. The line is at the position where the sequence of x and y is at the same position. The gray square on the graph represents a self-interacting genomic sequence. As explained above, chromosome territories, A/B compartments and TADs all have this property. Moreover, for the loops, we can see that it is at the corner of some TADs, and it is very dark.  We also observe that the corner of the TAD represents the contact frequency of its head and tail, so we understand that the loop is formed by the head and tail of this TAD interacting with each other. The part of chromatin bends to make this interaction happen while also bringing other parts to each other. That’s why these TADs are also called loop domains.
 
-#### Analyzation tool: Juicer
+### Analyzation tool: Juicer
 
 ![](Juicer.png)
 A) Sequenced read pairs (horizontal bars) are aligned to the genome in parallel. Color indicates genomic position. Read pairs aligning to more than two positions are excluded. Those remaining are sorted by position and merged into a single list, at which point duplicate reads are removed. The hic file stores contact matrices at many resolutions and can be loaded into Juicebox for visualization. 
 (B) Contact domains (yellow) are annotated using the Arrowhead algorithm.
 (C) Loops (cyan) are annotated using HiCCUPS.
 
-##### Arrowhead algorithm:
+#### Arrowhead algorithm:
 Arrowhead algorithm is used for contact domain(TADs, territories, etc.) annotation. 
 
 
-##### HiCCUPS:
+#### HiCCUPS:
 HiCCUPS is used for loops annotation.
 
 ## 4. Real-life Example<a name="234"></a> 
