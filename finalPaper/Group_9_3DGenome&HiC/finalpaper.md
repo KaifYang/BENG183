@@ -10,6 +10,7 @@
     2.6. [NADs](#2326)
 3. [Hi-C Analysis](#233)
 4. [Real-life Example](#234)
+5. [Reference](#235)
 
 
 
@@ -54,7 +55,7 @@ Genomic regions that are adjacent to the nuclear lamina, in which DNA heavily in
 NADs are regions in which DNA sequences interact with nucleolus. This structure, frequently including large multi-gene clusters, usually express characteristics of constitutive heterochromatin and are correlated with low gene expression. The part of the chromosome that contains ribosomal RNA genes is usually inside the NADs. NADs can be further differentiated into two types. Type I NADs are usually associated with both nucleolar periphery and nuclear lamina. This type of NADs are usually constitutive heterochromatin, leading to late DNA replication and little gene expression. Type II NADs are usually associated with nucleoli. This type of NADs, in contrast, leads to earlier DNA replication and greater gene expression. (Saksouk et al.)
 
 
-## Hi-C Analysis<a name="233"></a>
+## 3. Hi-C Analysis<a name="233"></a>
 
 #### PipeLine:
 
@@ -79,7 +80,7 @@ The figures above are Hi-C contact heat maps from primary cancer cells (left) an
 This example demonstrates the significance of Hi-C analysis: it helps to identify 3D epigenome reprogramming during pancreatic cancer metastasis and expand our knowledge of mechanisms of gene regulation during pancreatic cancer metastasis.
 
 
-# Referrence
+# 5. Referrence<a name="235"></a>
 [1] “Nuclear Organization.” Wikipedia, Wikimedia Foundation, 20 June 2022, https://en.wikipedia.org/wiki/Nuclear_organization. 
 <br>
 
