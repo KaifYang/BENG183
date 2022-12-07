@@ -9,9 +9,9 @@
     2.5. [LADs](#2325)<br>
     2.6. [NADs](#2326)
 3. [Hi-C Analysis](#233)<br>
-    3.1. [PipeLine](#2331)<br>
-    3.2. [Hi-C data mapping format](#2332)<br>
-    3.3. [Analyzation tool: Juicer](#2333)
+    3.1. [Pipeline](#2331)<br>
+    3.2. [Hi-C Data Mapping Format](#2332)<br>
+    3.3. [Analyzation Tool: Juicer](#2333)
 5. [Real-life Example](#234)
 6. [Reference](#235)
 
@@ -64,7 +64,7 @@ NADs are regions in which DNA sequences interact with nucleolus. This structure,
 
 
 
-### 3.1 PipeLine<a name="2331"></a>
+### 3.1 Pipeline<a name="2331"></a>
 
 ![](WorkFlow.png)
 [[81]]
@@ -73,7 +73,7 @@ NADs are regions in which DNA sequences interact with nucleolus. This structure,
 
 
 
-### 3.2 Hi-C data mapping format<a name="2332"></a>
+### 3.2 Hi-C Data Mapping Format<a name="2332"></a>
 
 ![](Structure_VS_HiC.png)
 
@@ -81,7 +81,7 @@ NADs are regions in which DNA sequences interact with nucleolus. This structure,
 
 The graphs here show the general shape of mapping of the data from a larger scale to the smaller scale. As we can see in the graph: the x and y axis represent the sequence of the part of the genome we are looking at, and they are identical. The intensity of the shadow represents the contact frequency of two positions on the sequence. That’s why we have a completely dark line that goes from top left to bottom right. The line is at the position where the sequence of x and y is at the same position. The gray square on the graph represents a self-interacting genomic sequence. As explained above, chromosome territories, A/B compartments and TADs all have this property. Moreover, for the loops, we can see that it is at the corner of some TADs, and it is very dark.  We also observe that the corner of the TAD represents the contact frequency of its head and tail, so we understand that the loop is formed by the head and tail of this TAD interacting with each other. The part of chromatin bends to make this interaction happen while also bringing other parts to each other. That’s why these TADs are also called loop domains.
 
-### Analyzation tool: Juicer<a name="2333"></a>
+### Analyzation Tool: Juicer<a name="2333"></a>
 
 Tools like Juicer can be used to visualize Hi-C data and annotate mapping format. 
 
