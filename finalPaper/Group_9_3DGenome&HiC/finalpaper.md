@@ -85,20 +85,20 @@ The graphs here show the general shape of mapping of the data from a larger scal
 
 Tools like Juicer can be used to visualize Hi-C data and annotate mapping format. 
 
-![](Juicer.png) [[10]](https://doi.org/10.1186/s13045-021-01131-0)
+![](Juicer.png) [[10]](https://doi.org/10.1016/j.cell.2014.11.021)
 
 A) Sequenced read pairs (horizontal bars) are aligned to the genome in parallel. Color indicates genomic position. Read pairs aligning to more than two positions are excluded. Those remaining are sorted by position and merged into a single list, at which point duplicate reads are removed. The hic file stores contact matrices at many resolutions and can be loaded into Juicebox for visualization. 
 
 (B) Contact domains (yellow) are annotated using the Arrowhead algorithm.
 
-(C) Loops (cyan) are annotated using HiCCUPS. [[10]](https://doi.org/10.1186/s13045-021-01131-0)
+(C) Loops (cyan) are annotated using HiCCUPS. [[10]](https://doi.org/10.1016/j.cell.2014.11.021)
 
 #### Arrowhead algorithm:
-Arrowhead algorithm is used for contact domain(TADs, territories, etc.) annotation. The matrix transform equation is: $$A_{i,i+d}=\frac{M_{i,i-d}-M_{i,i+d}}{M_{i,i-d}+M_{i,i+d}}=1-\frac{2*M_{i,i+d}}{M_{i,i+d}+M_{i,i-d}}$$ In which M denotes the normalized contact matrixm, A is the arrowhead matrix, i is the point (i, i) at the center of the Matrix, and d is some distance that needs to be defined. $A_{i,i+d}$ will be strongly positive if i − d is inside a domain and locus i + d is not. If the situation is the reverse then $A_{i,i+d}$ will be strongly negative. If the two is both inside or outside the domian the $A_{i,i+d}$ will be close to 0. The resulting graph of A will be arrowhead like. [[10]](https://doi.org/10.1186/s13045-021-01131-0)
+Arrowhead algorithm is used for contact domain(TADs, territories, etc.) annotation. The matrix transform equation is: $$A_{i,i+d}=\frac{M_{i,i-d}-M_{i,i+d}}{M_{i,i-d}+M_{i,i+d}}=1-\frac{2*M_{i,i+d}}{M_{i,i+d}+M_{i,i-d}}$$ In which M denotes the normalized contact matrixm, A is the arrowhead matrix, i is the point (i, i) at the center of the Matrix, and d is some distance that needs to be defined. $A_{i,i+d}$ will be strongly positive if i − d is inside a domain and locus i + d is not. If the situation is the reverse then $A_{i,i+d}$ will be strongly negative. If the two is both inside or outside the domian the $A_{i,i+d}$ will be close to 0. The resulting graph of A will be arrowhead like. [[10]](https://doi.org/10.1016/j.cell.2014.11.021)
 
 
 #### HiCCUPS:
-HiCCUPS is used for loops annotation. It looks at every pixel in the contact matrix and compqare each pixel with the region nearby it. If the pixel has significantly more contacts than expected when compared to nearby region, it is an enriched pixel. The resulting enriched pixels tend to form contiguous interaction regions comprising 5–20 pixels each. We define the “peak pixel” (or simply the “peak”) to be the pixel in an interaction region with the most contacts. [[10]](https://doi.org/10.1186/s13045-021-01131-0)
+HiCCUPS is used for loops annotation. It looks at every pixel in the contact matrix and compqare each pixel with the region nearby it. If the pixel has significantly more contacts than expected when compared to nearby region, it is an enriched pixel. The resulting enriched pixels tend to form contiguous interaction regions comprising 5–20 pixels each. We define the “peak pixel” (or simply the “peak”) to be the pixel in an interaction region with the most contacts. [[10]](https://doi.org/10.1016/j.cell.2014.11.021)
 
 
 ## 4. Real-life Example<a name="234"></a> 
@@ -134,7 +134,6 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 
 [9] Multiscale Chromatin Folding. A) Schema of the Features of Chromatin... https://www.researchgate.net/figure/Multiscale-chromatin-folding-a-Schema-of-the-features-of-chromatin-folding-at-different_fig1_338025861. 
 
+[10] A 3D Map of the Human Genome at Kilobase Resolution Reveals Principles of Chromatin Looping https://doi.org/10.1016/j.cell.2014.11.021
 
-[10] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
-
-[11] A 3D Map of the Human Genome at Kilobase Resolution Reveals Principles of Chromatin Looping https://doi.org/10.1016/j.cell.2014.11.021
+[11] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
