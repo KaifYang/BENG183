@@ -38,6 +38,7 @@ Genome forms a loop structure to bring together two far away elements to a spati
 A loop is a site where a protein specifically binds to two different sequences in the genome. As a result, we can see strong associations/interactions between these sites. 
 
 ![](Loop.png)
+[[3]](https://seas.harvard.edu/news/2014/12/scientists-map-human-loop-ome)
 
 #### 4) Small Conformations - Topologically Associating Domains<a name="2324"></a>
 TADs are self-interacting genomic regions. DNA sequences interact with each other more frequently within TADs. Many studies indicate that TADs restrict interactions of regulatory sequences to their target genes. Moreover, TAD boundaries are associated with high CTCF binding and more frequent appearance of certain genes such as the housekeeping genes. However, the function of TADs is still not fully understood and we need more research. According to the computer simulation, we find that chromatin loop extrusion can help generate TADs through cohesin motors. [[4]](https://www.annualreviews.org/doi/10.1146/annurev-genet-112618-043633)
@@ -174,6 +175,8 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 <br>
 
 [2] (2008). Chromosome Territories. In: Encyclopedia of Genetics, Genomics, Proteomics and Informatics. Springer, Dordrecht. https://doi.org/10.1007/978-1-4020-6754-9_3025
+
+[3] Scientists Map the Human Loop-Ome, Harvard School of Engineering https://seas.harvard.edu/news/2014/12/scientists-map-human-loop-ome. 
 
 [6] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
 
