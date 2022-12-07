@@ -88,18 +88,8 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 
 [3] Scientists Map the Human Loop-Ome, Harvard School of Engineering https://seas.harvard.edu/news/2014/12/scientists-map-human-loop-ome. 
 
-[6] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
-
-
-[3] Dekker J, Rippe K, Dekker M, Kleckner N. Capturing chromosome conformation. Science 2002;295(5558):1306–11.<br>
-
 [4] K;, Yatskevich S;Rhodes J;Nasmyth. “Organization of Chromosomal DNA by SMC Complexes.” Annual Review of Genetics, U.S. National Library of Medicine, https://pubmed.ncbi.nlm.nih.gov/31577909/.<br>
 
-[5] Dostie J, Richmond TA, Arnaout RA, Selzer RR, Lee WL, Honan TA, et al. Chromo- some Conformation Capture Carbon Copy (5C): a massively parallel solution for mapping interactions between genomic elements. Genome Res 2006;16(10): 1299–309.<br>
+[5] 
 
-[6] Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 2009;326(5950):289–93.<br>
-
-[7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.<br>
-
-[8] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx.
-
+[6] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
