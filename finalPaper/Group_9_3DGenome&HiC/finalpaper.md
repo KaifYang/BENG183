@@ -1,5 +1,9 @@
 
 # 3D Genome Structure And Hi-C Analysis
+
+Kaifu Yang, Tingwen Zheng, Jiayi Chen
+
+
 1. [Introduction](#231)
 2. [3D Chromosome Structure](#232)<br>
     2.1. [Chromosomal Territories](#2321)<br>
