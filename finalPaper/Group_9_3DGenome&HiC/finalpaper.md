@@ -54,7 +54,7 @@ Genomic regions that are adjacent to the nuclear lamina, in which DNA heavily in
 [[6]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5532494/)
 
 #### 6) Small Conformations - Nucleolar Associated Domains<a name="2326"></a>
-NADs are regions in which DNA sequences interact with nucleolus. This structure, frequently including large multi-gene clusters, usually express characteristics of constitutive heterochromatin and are correlated with low gene expression. The part of the chromosome that contains ribosomal RNA genes is usually inside the NADs. NADs can be further differentiated into two types. Type I NADs are usually associated with both nucleolar periphery and nuclear lamina. This type of NADs are usually constitutive heterochromatin, leading to late DNA replication and little gene expression. Type II NADs are usually associated with nucleoli. This type of NADs, in contrast, leads to earlier DNA replication and greater gene expression. (Saksouk et al.)
+NADs are regions in which DNA sequences interact with nucleolus. This structure, frequently including large multi-gene clusters, usually express characteristics of constitutive heterochromatin and are correlated with low gene expression. The part of the chromosome that contains ribosomal RNA genes is usually inside the NADs. NADs can be further differentiated into two types. Type I NADs are usually associated with both nucleolar periphery and nuclear lamina. This type of NADs are usually constitutive heterochromatin, leading to late DNA replication and little gene expression. Type II NADs are usually associated with nucleoli. This type of NADs, in contrast, leads to earlier DNA replication and greater gene expression. [[7]](https://doi.org/10.1186/1756-8935-8-3)
 
 
 ## 3. Hi-C Analysis<a name="233"></a>
@@ -62,7 +62,7 @@ NADs are regions in which DNA sequences interact with nucleolus. This structure,
 #### PipeLine:
 
 ![](WorkFlow.png)
-[[7]]
+[[81]]
 
 #### Introduction to HiC data mapping format:
 
@@ -99,7 +99,9 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 
 [6] van Steensel, Bas, and Andrew S Belmont. “Lamina-Associated Domains: Links with Chromosome Architecture, Heterochromatin, and Gene Repression.” Cell, U.S. National Library of Medicine, 18 May 2017, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5532494/. 
 
-[7]
+[7] Saksouk, N., Simboeck, E. & Déjardin, J. Constitutive heterochromatin formation and transcription in mammals. Epigenetics & Chromatin 8, 3 (2015). https://doi.org/10.1186/1756-8935-8-3
+
+[81] 
 
 [8] Multiscale Chromatin Folding. A) Schema of the Features of Chromatin... https://www.researchgate.net/figure/Multiscale-chromatin-folding-a-Schema-of-the-features-of-chromatin-folding-at-different_fig1_338025861. 
 
