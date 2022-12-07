@@ -75,6 +75,16 @@ The graphs here show the general shape of mapping of the data from a larger scal
 #### Analyzation tool: Juicer
 
 ![](Juicer.png)
+A) Sequenced read pairs (horizontal bars) are aligned to the genome in parallel. Color indicates genomic position. Read pairs aligning to more than two positions are excluded. Those remaining are sorted by position and merged into a single list, at which point duplicate reads are removed. The hic file stores contact matrices at many resolutions and can be loaded into Juicebox for visualization. 
+(B) Contact domains (yellow) are annotated using the Arrowhead algorithm.
+(C) Loops (cyan) are annotated using HiCCUPS.
+
+##### Arrowhead algorithm:
+Arrowhead algorithm is used for contact domain(TADs, territories, etc.) annotation. 
+
+
+##### HiCCUPS:
+HiCCUPS is used for loops annotation.
 
 ## 4. Real-life Example<a name="234"></a> 
 This [paper](https://doi.org/10.1186/s13045-021-01131-0) looks at 3D epigenome reprogramming during pancreatic cancer metastasis.
