@@ -45,11 +45,13 @@ A loop is a site where a protein specifically binds to two different sequences i
 TADs are self-interacting genomic regions. DNA sequences interact with each other more frequently within TADs. Many studies indicate that TADs restrict interactions of regulatory sequences to their target genes. Moreover, TAD boundaries are associated with high CTCF binding and more frequent appearance of certain genes such as the housekeeping genes. However, the function of TADs is still not fully understood and we need more research. According to the computer simulation, we find that chromatin loop extrusion can help generate TADs through cohesin motors. [[4]](https://www.annualreviews.org/doi/10.1146/annurev-genet-112618-043633)
 
 ![](TAD.png)
+[[5]](https://www.eurekalert.org/news-releases/662819)
 
 #### 5) Small Conformations - Lamin Associated Domains<a name="2325"></a>
 Genomic regions that are adjacent to the nuclear lamina, in which DNA heavily interacts with NL and form a condensed chromatin layer. LADs are associated with gene repression because the post-translational histone modification, H3K27me3, is enriched in LADs chromatin. 
 
 ![](LAD.png)
+[[6]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5532494/)
 
 #### 6) Small Conformations - Nucleolar Associated Domains<a name="2326"></a>
 NADs are regions in which DNA sequences interact with nucleolus. This structure, frequently including large multi-gene clusters, usually express characteristics of constitutive heterochromatin and are correlated with low gene expression. The part of the chromosome that contains ribosomal RNA genes is usually inside the NADs. NADs can be further differentiated into two types. Type I NADs are usually associated with both nucleolar periphery and nuclear lamina. This type of NADs are usually constitutive heterochromatin, leading to late DNA replication and little gene expression. Type II NADs are usually associated with nucleoli. This type of NADs, in contrast, leads to earlier DNA replication and greater gene expression. (Saksouk et al.)
@@ -92,6 +94,7 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 
 [5] UNC_Health_Care. “Whole Genome Sequencing Reveals Genetic Structural Secrets of Schizophrenia.” EurekAlert!, https://www.eurekalert.org/news-releases/662819. 
 
-[6] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
 
-[7] van Steensel, Bas, and Andrew S Belmont. “Lamina-Associated Domains: Links with Chromosome Architecture, Heterochromatin, and Gene Repression.” Cell, U.S. National Library of Medicine, 18 May 2017, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5532494/. 
+[6] van Steensel, Bas, and Andrew S Belmont. “Lamina-Associated Domains: Links with Chromosome Architecture, Heterochromatin, and Gene Repression.” Cell, U.S. National Library of Medicine, 18 May 2017, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5532494/. 
+
+[7] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
