@@ -80,7 +80,7 @@ The figures above are Hi-C contact heat maps from primary cancer cells (left) an
 This example demonstrates the significance of Hi-C analysis: it helps to identify 3D epigenome reprogramming during pancreatic cancer metastasis and expand our knowledge of mechanisms of gene regulation during pancreatic cancer metastasis.
 
 
-# 5. Referrence<a name="235"></a>
+## 5. Referrence<a name="235"></a>
 [1] “Nuclear Organization.” Wikipedia, Wikimedia Foundation, 20 June 2022, https://en.wikipedia.org/wiki/Nuclear_organization. 
 <br>
 
