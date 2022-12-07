@@ -90,6 +90,6 @@ This example demonstrates the significance of Hi-C analysis: it helps to identif
 
 [4] K;, Yatskevich S;Rhodes J;Nasmyth. “Organization of Chromosomal DNA by SMC Complexes.” Annual Review of Genetics, U.S. National Library of Medicine, https://pubmed.ncbi.nlm.nih.gov/31577909/.<br>
 
-[5] 
+[5] UNC_Health_Care. “Whole Genome Sequencing Reveals Genetic Structural Secrets of Schizophrenia.” EurekAlert!, https://www.eurekalert.org/news-releases/662819. 
 
 [6] Ren et al. J Hematol Oncol (2021) 14:120 https://doi.org/10.1186/s13045-021-01131-0
